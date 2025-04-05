@@ -8,7 +8,7 @@ import multer from "multer";
 
 // import proteinRoutes from "./routes/proteinstructure.routes.js";
 import authRoutes from "./routes/auth.routes.js";
-// import costestiminationRoutes from "./routes/costestimination.routes.js";
+import costestiminationRoutes from "./routes/costestimination.routes.js";
 // import newsRoutes from "./routes/news.routes.js";
 // import alphafoldRoutes from "./routes/alphafold.routes.js";
 
@@ -63,7 +63,7 @@ app.use('/results', express.static(path.join(__dirname, 'jobs')));
 // API Routes
 // app.use("/api/protein", upload.single("file"), proteinRoutes);
 app.use("/api/auth", authRoutes);
-// app.use("/api/costestimation", costestiminationRoutes);
+app.use("/api/costestimation", costestiminationRoutes);
 // app.use("/api/news", newsRoutes);
 // app.use("/api/alphafold", alphafoldRoutes);
 

@@ -63,12 +63,12 @@ function DashboardPage() {
     //   navigation: () => navigate('/dashboard/protein-structure-mutation'), 
     //   roles: ['admin', 'citizen', 'guest']
     // },
-    // { 
-    //   name: 'Cost Estimation', 
-    //   icon: <DollarSign size={20} className="mr-3" />,
-    //   navigation: () => navigate('/dashboard/cost-estimation'), 
-    //   roles: ['admin', 'citizen', 'guest']
-    // },
+    { 
+      name: 'Cost Estimation', 
+      icon: <DollarSign size={20} className="mr-3" />,
+      navigation: () => navigate('/dashboard/cost-estimation'), 
+      roles: ['admin', 'citizen', 'guest']
+    },
     // { 
     //   name: 'AI Research Paper Generator', 
     //   icon: <FileText size={20} className="mr-3" />,

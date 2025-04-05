@@ -15,7 +15,7 @@ import DashboardHome from './components/Dashboardhome.jsx';
 // import ProteinStructureApp from './pages/Proteinstructureapp/ProteinStructureApp.jsx';
 // import AIResearchPaperGenerator from "./pages/AIresearchgenerator/Airesearchgenerator.jsx";
 // import AIDrivenTargetPrediction from "./pages/AIdriventargetprediction/AIdriventargetprediction.jsx";
-// import Costestimation from "./pages/Costestimination/Costestimination.jsx";
+import Costestimation from "./pages/Costestimination/Costestimination.jsx";
 // import DrugDiscoveryRecommendation from "./pages/Drugdiscoveryrecommendation/Drugdiscoveryrecommendation.jsx";
 // import LiveNews from "./pages/Livenews/Livenews.jsx";
 // import Message from "./pages/Message/Message.jsx";
@@ -60,7 +60,7 @@ function App() {
                 <ProteinStructureEvolution />
                </ProtectedRoute>
             }
-          />
+          />*/}
            <Route
             path="cost-estimation"
             element={
@@ -69,7 +69,7 @@ function App() {
                </ProtectedRoute>
             }
           />
-           <Route
+           {/*<Route
             path="ai-research-paper-generator"
             element={
                <ProtectedRoute>
